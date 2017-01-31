@@ -12,6 +12,7 @@
   	<link rel="stylesheet" href="css/bootstrap.css">
   	<!-- <link rel="stylesheet" href="css/lightbox.css"> -->
 	<link rel="stylesheet" href="css/estilos-extras.css">
+	<link rel="stylesheet" href="css/estilos.css">
 	<!-- <link rel="stylesheet" href="css/responsivo.css"> -->
 	<!-- <link rel="stylesheet" href="css/animate.css"> -->
 	<link rel="stylesheet" href="fonts/style.css">

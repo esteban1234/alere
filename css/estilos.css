@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*.container-fluid {
+    background-color: #d1f2eb;
+}*/
+
+html {
+    background-image: url("../img/conta2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.content {
+    max-width: 500px;
+    min-height: 200px;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid #ffffff;
+    background: rgba(255, 255, 255, .8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -115px;
+    margin-left: -265px;
+}
