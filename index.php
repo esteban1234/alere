@@ -4,10 +4,35 @@
 	hola
 </div> -->
 
-<div class="content">
+<!-- <div class="content">
     <h1>Poner imagen de fondo a pantalla completa</h1>
     <p>Imagen de <a href="https://www.flickr.com/photos/zoutedrop/4112397108/" target="_blank">zoutedrop</a>.</p>
-</div>
+</div> -->
+
+<div class="portada">
+		<div id="desarrollofrontend">
+	     <a href="http://www.desarrollofrontend.com" target="blank">Aleré</a>
+ 
+		</div>
+		
+		<div class="text">
+			<h1>texto</h1> 
+			<h3>texto</h3>
+
+		</div>
+		
+
+	</div>
+
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At illum optio recusandae quos, nam veniam magnam esse, aperiam accusamus harum aspernatur impedit dolores provident cum unde quae delectus totam quibusdam.</p> <br>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At illum optio recusandae quos, nam veniam magnam esse, aperiam accusamus harum aspernatur impedit dolores provident cum unde quae delectus totam quibusdam.</p> <br>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At illum optio recusandae quos, nam veniam magnam esse, aperiam accusamus harum aspernatur impedit dolores provident cum unde quae delectus totam quibusdam.</p> <br>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At illum optio recusandae quos, nam veniam magnam esse, aperiam accusamus harum aspernatur impedit dolores provident cum unde quae delectus totam quibusdam.</p> <br>
+	</div>
 
 <!-- <header class="conten-logo">
 	<figure class="logo">
