@@ -14,7 +14,7 @@ body {
     margin: 0px;
 }
 
-#desarrollofrontend {
+#header {
     padding: 10px 0px 10px 0px;
     background: rgba(0, 0, 0, 0.5);
     color: #00bdff;
@@ -23,7 +23,7 @@ body {
     font-size: 1.3em;
 }
 
-#desarrollofrontend a {
+#header a {
     padding: 10px;
     border: none;
     color: white;
