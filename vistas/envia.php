@@ -19,11 +19,11 @@ $mail->From = $correo;
 $mail->FromName = $nombre;
 
 //To address and name
-$mail->addAddress("informacion@athlon.mx");
+$mail->addAddress("info@alere.mx");
 
 $mail->isHTML(true);
 
-$mail->Subject = "Cotizacion Athlon";
+$mail->Subject = "Cotizacion Alere";
 $mail->Body = "<b>Dirección: </b>.$direccion.<br/>
               <b>Telefono: </b>.$telefono.<br/>
               <b>Servicio Solicitado: </b>.$servicio.<br/>

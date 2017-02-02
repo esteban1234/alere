@@ -163,6 +163,7 @@
     float: left;
     margin-left: 8%;
     margin-top: 3%;
+    /*opacity: 0;*/
 }
 
 .icono_q {
@@ -215,12 +216,14 @@
 .contenedorform {
     /*outline: 2px red solid;*/
     margin: 0 auto;
-    width: 100%
+    width: 100%;
+    /*padding-bottom: 5%;*/
 }
 
 .form {
     width: 50%;
     float: left;
+    margin-bottom: 1%;
 }
 
 .tituloform {
@@ -254,6 +257,7 @@
 }
 
 footer {
+    /*margin-top: 2%;*/
     background-color: rgb(205, 97, 85);
 }
 

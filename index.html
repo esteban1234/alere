@@ -6,12 +6,15 @@
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <META NAME="Title" content="Alere creatividad en ciudad de merida.">
+    <META NAME="Author" CONTENT="[]" />
+    <META name="Description" content="Somos una compañía ubicada en la ciudad de merida, Mérida, dedicados a ofrecer servicios a personas físicas o morales toda clase de consultorías y asesoría, así como realizar estudios en materia económica, administrativa, financiera, técnica, industrial, contable y legal. Servicios profesionales en las áreas de derecho fiscal, mercantil, laboral, civil, penal, corporativo, migratorio, seguridad social, mediante defensas directas ante todo tipo de autoridades. Servicios en materia contable, fiscal, financiera, administrativa, capacitación de personal y la realización de actos jurídicos y contratos." />
+    <META NAME="Keywords" CONTENT="estudios económicos en merida, estudios financieros en merida, legal, organización legal, legal en merida yucatan, legal, fiscal." />
     <title>ALERE</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/iconos.min.css">
 </head>
 
@@ -46,7 +49,7 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#" id="tooltip"><i class="fa fa-map-marker" id="icono" aria-hidden="true"></i><span>Aqui va la direccion</span></a>
+                        <a href="#" id="tooltip"><i class="fa fa-map-marker" id="icono" aria-hidden="true"></i><span>C.11 #308 entre 60 y 86 Fracc. del Norte. Mérida, Yucatán, México.</span></a>
                     </li>
                     <li>
                         <a href="#" id="tooltip"><i class="fa fa-phone" id="icono" aria-hidden="true"></i><span>Aqui va el telefono</span></a>
@@ -64,15 +67,15 @@
     <section id="intro" class="intro-section">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h1 id="texto_banner">Enfocate en hacer mejor tu empresa</h1>
-                    <p id="texto2_banner">Deja tus asuntos fiscales y legales en nuestras manos</p>
+                <div class="animatedParent data-appear-top-offset='-300' data-sequence='500' col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <h1 class="animated bounceInDown" data-id='1' id="texto_banner">Enfocate en hacer mejor tu empresa</h1>
+                    <p class="animated bounceInDown" data-id='2' id="texto2_banner">Deja tus asuntos fiscales y legales en nuestras manos</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-offset-4 col-xs-4">
-                    <img src="img/alere.png" class="img-responsive" id="img_banner" alt="">
-                    <a class="btn btn-large btn-danger page-scroll" href="#contact">CONTACTANOS!</a>
+                <div class="animatedParent col-xs-offset-4 col-xs-4">
+                    <img src="img/alere.png" class="img-responsive animated bounceInDown" id="img_banner" alt="">
+                    <a class="animated bounceInDown btn btn-large btn-danger page-scroll" href="#contact">CONTACTANOS!</a>
                 </div>
             </div>
         </div>
@@ -209,10 +212,24 @@
         <div class="container">
             <br>
             <div class="row">
-                <div class="col-md-3 col-xs-offset-1">
+                <div class="col-md-3">
                     <div class="panel panel-primary">
                         <div class="panel-heading">Llámanos
                             <span class="pull-right"><i class="fa fa-fax" aria-hidden="true"></i></span></div>
+                        <div class="panel-body" style="text-align: center;">Pendiente</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Horarios
+                            <span class="pull-right"><i class="fa fa-power-off" aria-hidden="true"></i></span></div>
+                        <div class="panel-body" style="text-align: center;">Lunes a Viernes de 9am a 6pm</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Correo
+                            <span class="pull-right"><i class="fa fa-envelope-o" aria-hidden="true"></i></span></div>
                         <div class="panel-body" style="text-align: center;">Pendiente</div>
                     </div>
                 </div>
@@ -223,20 +240,13 @@
                         <div class="panel-body" style="text-align: center;">C.11 #308 entre 60 y 86 Fracc. del Norte. Mérida, Yucatán, México.</div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">Horarios
-                            <span class="pull-right"><i class="fa fa-power-off" aria-hidden="true"></i></span></div>
-                        <div class="panel-body" style="text-align: center;">Lunes a Viernes de 9am a 6pm</div>
-                    </div>
-                </div>
             </div>
             <div class="container">
                 <div class="contenedorform">
                     <p class="tituloform">Formulario de contacto</p>
                     <!-- <div class=""> -->
                     <br>
-                    <form class="form" action="envia.php" method="post">
+                    <form class="form" action="vistas/envia.php" method="post">
                         <div class="form-group">
                             <label for="nombre">Nombre Completo:</label>
                             <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre Completo">
@@ -277,15 +287,11 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="mapa">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931.1507896355208!2d-89.62237367083014!3d21.008538899125583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5676a894f6fdff%3A0x89d8b8e13fd291c6!2sCalle11+308%2C+Fraccionamiento+del+Nte%2C+97120+M%C3%A9rida%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1486063893260" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
- -->
     </section>
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-xs-12" id="pie">
+                <div class="col-xs-" id="pie">
                     Derechos de autor 2017© | ALERE CREATIVIDAD Y DISEÑO S.A. de C.V.
                 </div>
             </div>
@@ -298,6 +304,7 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+    <script src="js/animacion.js"></script>
 </body>
 
 </html>
