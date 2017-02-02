@@ -127,11 +127,33 @@
     /*border: 2px green solid;*/
 }
 
+.banner {
+    /*overflow: hidden;*/
+    padding: 15px 0px;
+    margin-top: 2%;
+    background-color: rgb(138, 38, 88);
+}
+
+.banner p {
+    border: 1px #fff solid;
+    font-size: 16px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    color: #FFF;
+    padding: 5px;
+}
+
+.banner p b {
+    font-size: 18px;
+    color: #fff;
+}
+
 .caja_q {
     /*outline: 2px red solid;*/
     width: 75%;
     margin: 0 auto;
-    margin-top: 2%;
+    margin-top: .5%;
     /*text-align: center;*/
 }
 
@@ -163,8 +185,76 @@
 }
 
 .texto_caja {
-    font-size: 20px;
+    font-size: 17px;
     text-align: justify;
+}
+
+
+/*------------------------servicios-----------------*/
+
+.banner2 {
+    /*overflow: hidden;*/
+    padding: 15px 0px;
+    margin-top: 2%;
+    background-color: rgb(138, 38, 88);
+}
+
+.banner2 p {
+    border: 1px #fff solid;
+    font-size: 16px;
+    width: 42%;
+    margin: 0 auto;
+    /*text-align: justify;*/
+    color: #FFF;
+    padding: 5px;
+}
+
+
+/*-----------contactro------------*/
+
+.contenedorform {
+    /*outline: 2px red solid;*/
+    margin: 0 auto;
+    width: 100%
+}
+
+.form {
+    width: 50%;
+    float: left;
+}
+
+.tituloform {
+    /*outline: 2px red solid;*/
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    background-color: rgb(42, 49, 60);
+    color: white;
+}
+
+.mapa {
+    /*    outline: 2px red solid;
+*/
+    float: right;
+    width: 45%;
+    margin-top: 2%;
+}
+
+.mapa iframe {
+    width: 100%;
+}
+
+#pie {
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    color: white;
+}
+
+footer {
+    background-color: rgb(205, 97, 85);
 }
 
 @media screen and (max-width: 480px) {
