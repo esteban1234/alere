@@ -158,12 +158,10 @@
 }
 
 .caja_q_1 {
-    /*outline: 2px green solid;*/
     width: 41%;
     float: left;
     margin-left: 8%;
     margin-top: 3%;
-    /*opacity: 0;*/
 }
 
 .icono_q {
@@ -176,7 +174,6 @@
 }
 
 .contentexto_caja {
-    /*outline: 2px red solid;*/
     width: 100%;
 }
 
@@ -205,7 +202,6 @@
     font-size: 16px;
     width: 42%;
     margin: 0 auto;
-    /*text-align: justify;*/
     color: #FFF;
     padding: 5px;
 }
@@ -214,10 +210,8 @@
 /*-----------contactro------------*/
 
 .contenedorform {
-    /*outline: 2px red solid;*/
     margin: 0 auto;
     width: 100%;
-    /*padding-bottom: 5%;*/
 }
 
 .form {
@@ -227,7 +221,6 @@
 }
 
 .tituloform {
-    /*outline: 2px red solid;*/
     width: 100%;
     text-align: center;
     font-size: 25px;
@@ -238,8 +231,6 @@
 }
 
 .mapa {
-    /*    outline: 2px red solid;
-*/
     float: right;
     width: 45%;
     margin-top: 2%;
@@ -249,12 +240,12 @@
     width: 100%;
 }
 
-#pie {
+/*#pie {
     text-align: center;
     font-size: 25px;
     padding: 15px;
     color: white;
-}
+}*/
 
 footer {
     /*margin-top: 2%;*/
@@ -262,10 +253,6 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    /*#img_banner {
-    display: none;
-}
-*/
     #texto_banner {
         font-size: 25px;
     }
@@ -278,3 +265,64 @@ footer {
         left: 10px;
     }
 }
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+
+  #texto_banner {
+      font-size: 25px;
+  }
+  #texto2_banner {
+      font-size: 16px;
+  }
+  #tooltip:hover span {
+      width: 170px;
+      top: 10px;
+      left: 10px;
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+.intro-section
+{
+  padding-top: 18%;
+}
+
+  #texto_banner {
+      font-size: 25px;
+      margin-top: 0px;
+  }
+
+  #texto2_banner {
+      font-size: 16px;
+  }
+
+  #tooltip:hover span {
+      width: 170px;
+      /*top: 5px;*/
+      /*left: 5px;*/
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+  #texto_banner {
+      font-size: 30px;
+      margin-top: 0px;
+  }
+
+  #texto2_banner {
+      font-size: 16px;
+  }
+
+  #tooltip:hover span {
+      width: 170px;
+      /*top: 5px;*/
+      /*left: 5px;*/
+  }
+
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

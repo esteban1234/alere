@@ -1,0 +1,341 @@
+@media screen and (max-width: 480px){
+
+  /*******************INICIA MENU*******************/
+  .nav li
+  {
+    text-align: center;
+  }
+
+  .navbar-right
+  {
+    display: none;
+  }
+
+  .animatedParent
+  {
+    overflow: hidden;
+  }
+
+  section
+  {
+    overflow: hidden;
+    height: 100%;
+  }
+
+  /*********************INICIA QUIENES SOMOS*************/
+  .about-section
+  {
+    padding: 0px;
+  }
+
+  .about-section h1
+  {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    margin-top: 5%;
+  }
+
+  .banner p
+  {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .caja_q
+  {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .caja_q .caja_q_1
+  {
+    border-top: .5px solid yellow;
+    width: 100%;
+    margin-left: 0px;
+    padding: 0px 5%;
+    margin-top: 5%;
+  }
+
+  /*******************INICIA SERVICIOS*************/
+  .services-section
+  {
+    padding: 0px;
+  }
+
+  .services-section h1
+  {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .banner2 p{
+    width: 100%;
+    padding: 5%;
+    text-align: justify;
+  }
+
+  /************INICIA CONTACTO***********/
+  .contact-section
+  {
+    padding: 0px;
+  }
+
+  .contact-section h1
+  {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+
+  .form, .mapa{
+    /*border: 2px solid red;*/
+    width: 100%;
+  }
+
+  /*******************INICIA PIE*******************/
+  .h4
+  {
+    text-align: center;
+    font-size: 16px;
+  }
+
+
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+  /*******************INICIA MENU*******************/
+  /*******************INICIA MENU*******************/
+  .nav li
+  {
+    text-align: center;
+  }
+
+  .navbar-right
+  {
+    display: none;
+  }
+
+  .animatedParent
+  {
+    overflow: hidden;
+  }
+
+  section
+  {
+    overflow: hidden;
+    height: 100%;
+  }
+
+  /*********************INICIA QUIENES SOMOS*************/
+  .about-section
+  {
+    padding: 0px;
+  }
+
+  .about-section h1
+  {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    margin-top: 5%;
+  }
+
+  .banner p
+  {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .caja_q
+  {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .caja_q .caja_q_1
+  {
+    border-top: .5px solid yellow;
+    width: 100%;
+    margin-left: 0px;
+    padding: 0px 5%;
+    margin-top: 5%;
+  }
+
+  /*******************INICIA SERVICIOS*************/
+  .services-section
+  {
+    padding: 0px;
+  }
+
+  .services-section h1
+  {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .banner2 p{
+    width: 100%;
+    padding: 5%;
+    text-align: justify;
+  }
+
+  /************INICIA CONTACTO***********/
+  .contact-section
+  {
+    padding: 0px;
+  }
+
+  .contact-section h1
+  {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+
+  .form, .mapa{
+    /*border: 2px solid red;*/
+    width: 100%;
+  }
+
+  /*******************INICIA PIE*******************/
+  .h4
+  {
+    text-align: center;
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  /*******************INICIA MENU*******************/
+  .nav li
+  {
+    text-align: center;
+  }
+
+  .navbar-right
+  {
+    display: none;
+  }
+
+  .animatedParent
+  {
+    overflow: hidden;
+  }
+
+  section
+  {
+    overflow: hidden;
+    height: 100%;
+  }
+
+  /*********************INICIA QUIENES SOMOS*************/
+  .about-section
+  {
+    padding: 0px;
+  }
+
+  .about-section h1
+  {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    margin-top: 5%;
+  }
+
+  .banner p
+  {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .caja_q
+  {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .caja_q .caja_q_1
+  {
+    border-top: .5px solid yellow;
+    width: 100%;
+    margin-left: 0px;
+    padding: 0px 5%;
+    margin-top: 5%;
+  }
+
+  /*******************INICIA SERVICIOS*************/
+  .services-section
+  {
+    padding: 0px;
+  }
+
+  .services-section h1
+  {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .banner2 p{
+    width: 100%;
+    padding: 5%;
+    text-align: justify;
+  }
+
+  /************INICIA CONTACTO***********/
+  .contact-section
+  {
+    padding: 0px;
+  }
+
+  .contact-section h1
+  {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+  }
+
+
+  .form, .mapa{
+    /*border: 2px solid red;*/
+    width: 100%;
+  }
+
+  /*******************INICIA PIE*******************/
+  .h4
+  {
+    text-align: center;
+    font-size: 16px;
+  }
+
+
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+  .banner2 p{
+    width: 70%;
+    padding: 5%;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }
